@@ -3,7 +3,7 @@ import requests
 import os
 
 
-class AirKoreaClient:
+class AirKoreaPy:
     def __init__(self):
         self.year = None
         self.file_id = '1657eebba9237'
@@ -52,5 +52,5 @@ class AirKoreaClient:
 
 
 if __name__ == "__main__":
-    akc = AirKoreaClient()
+    akc = AirKoreaPy()
     akc.download_fixed_data(year=2024)

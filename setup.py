@@ -1,14 +1,14 @@
 from setuptools import setup
 
 setup(
-    name="airkorea_client",
+    name="airkoreapy",
     version="0.0.1",
     description="",
     author="JB Park",
     author_email="ianolpx@gmail.com",
-    url="https://github.com/ianolpx/m4a2text",
+    url="https://github.com/ianolpx/airkoreapy",
     # packages=find_packages(),
-    py_modules=["airkorea_client"], 
+    py_modules=["airkoreapy"],
     install_requires=[
         "requests",
         "tqdm",
